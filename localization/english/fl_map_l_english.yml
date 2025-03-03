@@ -1,0 +1,13 @@
+﻿l_english:
+ STATE_FALLEN_LONDON: "Fallen London"
+ STATE_SOUTHWARK: "Southwark"
+ HUB_NAME_STATE_FALLEN_LONDON_city: "Veilgarden"
+ HUB_NAME_STATE_FALLEN_LONDON_port: "Wolfstack Docks"
+ HUB_NAME_STATE_FALLEN_LONDON_mine: "Clay Quarter"
+ HUB_NAME_STATE_FALLEN_LONDON_farm: "Prickfinger Wastes"
+ HUB_NAME_STATE_FALLEN_LONDON_wood: "Wilmot's End"
+ HUB_NAME_STATE_SOUTHWARK_city: "Echo Bazaar"
+ HUB_NAME_STATE_SOUTHWARK_port: "Watchmaker's Hill"
+ HUB_NAME_STATE_SOUTHWARK_mine: "Winewound Heath"
+ HUB_NAME_STATE_SOUTHWARK_farm: "Bugsby's Marshes"
+ HUB_NAME_STATE_SOUTHWARK_wood: "The Forgotten Quarter"

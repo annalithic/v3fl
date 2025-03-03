@@ -1,0 +1,19 @@
+STATES = {
+	s:STATE_FALLEN_LONDON = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x5529BD x632CBD x63555B xCA5DB8 x5784BD xC38441 xAEAEAE xD1D1D1 }
+		}
+		
+		add_homeland = cu:british
+	}
+	
+	s:STATE_SOUTHWARK = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x555555 x2986BD x4585BD xFF5DB8 xBD8629 xC08537 x51BD29 x60BB37 }
+		}
+		
+		add_homeland = cu:british
+	}
+}

@@ -1,0 +1,47 @@
+﻿POPS = {
+	s:STATE_FALLEN_LONDON = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 2657596
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
+			}
+		}
+	}
+	
+	s:STATE_SOUTHWARK = {
+		region_state:GBR = {
+			create_pop = {
+				culture = british
+				size = 2657596
+			}
+			create_pop = {
+				culture = british
+				religion = jewish
+				size = 20000
+			}
+			create_pop = {
+				culture = british
+				religion = catholic
+				size = 100000
+			}
+			create_pop = {
+				culture = irish
+				size = 28400
+			}
+		}
+	}
+}

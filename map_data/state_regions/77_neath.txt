@@ -1,0 +1,37 @@
+﻿STATE_FALLEN_LONDON = {
+    id = 777
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x5529BD" "x632CBD" "x63555B" "xCA5DB8" "x5784BD" "xC38441" "xAEAEAE" "xD1D1D1" }
+    city = "x5784BD"
+    port = "xC38441"
+    farm = "x632CBD"
+    mine = "x5529BD"
+    wood = "x63555B"
+    arable_land = 22
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 9
+        bg_fishing = 8
+        bg_iron_mining = 36
+    }
+    naval_exit_id = 3000
+}
+
+STATE_SOUTHWARK = {
+    id = 778
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x555555" "x2986BD" "x4585BD" "xFF5DB8" "xBD8629" "xC08537" "x51BD29" "x60BB37" }
+    city = "xFF5DB8"
+    port = "x51BD29"
+    farm = "x2986BD"
+    mine = "x60BB37"
+    wood = "x555555"
+    arable_land = 22
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 9
+        bg_fishing = 8
+        bg_iron_mining = 36
+    }
+    naval_exit_id = 3000
+}
