@@ -1,0 +1,15 @@
+﻿game_object_locator={
+	name="fl_echo_bazaar_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+		{
+			id=1
+			position={ 3300.122803 0.000000 2872.516602 }
+			rotation={ -0.000000 -0.045447 -0.000000 -0.998967 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+	}
+}

@@ -1,0 +1,23 @@
+pdxmesh = {
+	name = "fl_bazaar_mesh"
+	file = "fl_bazaar.mesh"
+
+	scale = 1
+
+
+	meshsettings = {
+		name = "Plane.009"
+		index = 0
+		texture_diffuse = "rock_granite_01_diffuse.dds"
+		texture_normal = "rock_granite_01_normal.dds"
+		texture_specular = "rock_granite_01_properties.dds"
+		shader = "standard_alpha_to_coverage"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "SINGLESUN" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "fl_bazaar_entity"
+	pdxmesh = "fl_bazaar_mesh"
+}

@@ -1,0 +1,31 @@
+﻿fl_building_echo_bazaar = {
+	building_group = bg_monuments
+	icon = "gfx/interface/icons/building_icons/fl_echo_bazaar.dds"
+	expandable = no
+	downsizeable = no
+	unique = yes
+	locator = "fl_echo_bazaar_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { "building_construction_2x2_entity" }
+	entity_constructed = { "fl_bazaar_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_base_building_big_ben
+	}
+	
+	required_construction = 10
+	
+	potential = {
+		state_region = s:STATE_SOUTHWARK
+	}
+	
+	ai_value = 10000
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

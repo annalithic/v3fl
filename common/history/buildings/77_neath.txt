@@ -223,6 +223,12 @@
 	
 	s:STATE_SOUTHWARK={
 		region_state:GBR={
+		
+			create_building={
+				building="fl_building_echo_bazaar"
+				level = 1
+			}
+
 			create_building={
 				building="building_government_administration"
 				add_ownership={
