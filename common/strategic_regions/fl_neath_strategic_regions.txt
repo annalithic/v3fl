@@ -1,0 +1,5 @@
+﻿region_western_continent = {
+	capital_province = x5784BD
+	map_color = { 1 0 0 }
+	states = { STATE_FALLEN_LONDON STATE_SOUTHWARK }
+}

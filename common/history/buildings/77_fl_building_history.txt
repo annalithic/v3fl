@@ -1,11 +1,11 @@
 ﻿BUILDINGS={
 	s:STATE_FALLEN_LONDON={
-		region_state:GBR={
+		region_state:FLN={
 			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=10
 					}
 				}
@@ -17,13 +17,13 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=2
 						region="STATE_FALLEN_LONDON"
 					}
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:FLN"
 						levels=1
 						region="STATE_FALLEN_LONDON"
 					}
@@ -35,7 +35,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=3
 					}
 				}
@@ -46,7 +46,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=5
 					}
 				}
@@ -58,12 +58,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=6
 						region="STATE_FALLEN_LONDON"
 					}
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=4
 					}
 				}
@@ -75,12 +75,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=17
 						region="STATE_FALLEN_LONDON"
 					}
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=6
 					}
 				}
@@ -92,7 +92,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=4
 						region="STATE_FALLEN_LONDON"
 					}
@@ -104,7 +104,7 @@
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=2
 					}
 				}
@@ -116,7 +116,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=15
 						region="STATE_FALLEN_LONDON"
 					}
@@ -129,7 +129,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:FLN"
 						levels=15
 						region="STATE_FALLEN_LONDON"
 					}
@@ -142,7 +142,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:FLN"
 						levels=5
 						region="STATE_FALLEN_LONDON"
 					}
@@ -155,13 +155,13 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:GBR"
+						country="c:FLN"
 						levels=1
 						region="STATE_FALLEN_LONDON"
 					}
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=1
 						region="STATE_FALLEN_LONDON"
 					}
@@ -171,13 +171,6 @@
 			}
 			create_building={
 				building="building_railway"
-				add_ownership={
-					company={
-						type=company_gwr
-						country="c:GBR"
-						levels=2
-					}
-				}
 				reserves=1
 				activate_production_methods={ "pm_early_trains"  "pm_wooden_passenger_carriages" }
 			}
@@ -185,7 +178,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=10
 					}
 				}
@@ -197,7 +190,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=3
 						region="STATE_FALLEN_LONDON"
 					}
@@ -210,7 +203,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=4
 						region="STATE_FALLEN_LONDON"
 					}
@@ -222,7 +215,7 @@
 	}
 	
 	s:STATE_SOUTHWARK={
-		region_state:GBR={
+		region_state:FLN={
 		
 			create_building={
 				building="fl_building_echo_bazaar"
@@ -233,7 +226,7 @@
 				building="building_government_administration"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=10
 					}
 				}
@@ -245,13 +238,13 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=2
 						region="STATE_SOUTHWARK"
 					}
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:FLN"
 						levels=1
 						region="STATE_SOUTHWARK"
 					}
@@ -263,7 +256,7 @@
 				building="building_construction_sector"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=3
 					}
 				}
@@ -274,7 +267,7 @@
 				building="building_university"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=5
 					}
 				}
@@ -286,12 +279,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=6
 						region="STATE_SOUTHWARK"
 					}
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=4
 					}
 				}
@@ -303,12 +296,12 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=17
 						region="STATE_SOUTHWARK"
 					}
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=6
 					}
 				}
@@ -320,7 +313,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=4
 						region="STATE_SOUTHWARK"
 					}
@@ -332,7 +325,7 @@
 				building="building_military_shipyards"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=2
 					}
 				}
@@ -344,7 +337,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=15
 						region="STATE_SOUTHWARK"
 					}
@@ -357,7 +350,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:FLN"
 						levels=15
 						region="STATE_SOUTHWARK"
 					}
@@ -370,7 +363,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:GBR"
+						country="c:FLN"
 						levels=5
 						region="STATE_SOUTHWARK"
 					}
@@ -383,13 +376,13 @@
 				add_ownership={
 					building={
 						type="building_fishing_wharf"
-						country="c:GBR"
+						country="c:FLN"
 						levels=1
 						region="STATE_SOUTHWARK"
 					}
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=1
 						region="STATE_SOUTHWARK"
 					}
@@ -399,13 +392,6 @@
 			}
 			create_building={
 				building="building_railway"
-				add_ownership={
-					company={
-						type=company_gwr
-						country="c:GBR"
-						levels=2
-					}
-				}
 				reserves=1
 				activate_production_methods={ "pm_early_trains"  "pm_wooden_passenger_carriages" }
 			}
@@ -413,7 +399,7 @@
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:GBR"
+						country="c:FLN"
 						levels=10
 					}
 				}
@@ -425,7 +411,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=3
 						region="STATE_SOUTHWARK"
 					}
@@ -438,7 +424,7 @@
 				add_ownership={
 					building={
 						type="building_financial_district"
-						country="c:GBR"
+						country="c:FLN"
 						levels=4
 						region="STATE_SOUTHWARK"
 					}

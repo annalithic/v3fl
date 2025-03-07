@@ -1,0 +1,25 @@
+﻿fl_pm_default_building_echo_bazaar = {
+	texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+	is_hidden_when_unavailable = yes
+
+	building_modifiers = {
+		workforce_scaled = {
+                  goods_output_wax_add = 77
+                  goods_output_candles_add = 77
+                  goods_output_cryptic_clues_add = 77
+                  goods_output_prisoners_honey_add = 77
+                  goods_output_zee_ztories_add = 77
+                  goods_output_appalling_secrets_add = 77
+                  goods_output_memories_of_light_add = 77
+                  goods_output_love_stories_add = 77
+                  goods_output_lightbulbs_add = 77
+                  goods_output_searing_enigmas_add = 77
+                  goods_output_moves_in_the_game_add = 77
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 100
+		}
+	}
+}

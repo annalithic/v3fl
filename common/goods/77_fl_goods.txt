@@ -1,0 +1,76 @@
+﻿wax = {
+    texture = "gfx/interface/icons/goods_icons/wax.dds"
+    category = military
+
+    cost = 20
+}
+
+candles = {
+    texture = "gfx/interface/icons/goods_icons/candles.dds"
+    category = military
+
+    cost = 30
+}
+
+cryptic_clues = {
+    texture = "gfx/interface/icons/goods_icons/clues.dds"
+    category = military
+
+    cost = 30
+}
+
+prisoners_honey = {
+    texture = "gfx/interface/icons/goods_icons/honey.dds"
+    category = military
+
+    cost = 40
+}
+
+zee_ztories = {
+    texture = "gfx/interface/icons/goods_icons/zee_ztories.dds"
+    category = military
+
+    cost = 40
+}
+
+appalling_secrets = {
+    texture = "gfx/interface/icons/goods_icons/secrets.dds"
+    category = military
+
+    cost = 40
+}
+
+memories_of_light = {
+    texture = "gfx/interface/icons/goods_icons/memories_of_light.dds"
+    category = military
+
+    cost = 50
+}
+
+love_stories = {
+    texture = "gfx/interface/icons/goods_icons/love_stories.dds"
+    category = military
+
+    cost = 50
+}
+
+lightbulbs = {
+    texture = "gfx/interface/icons/goods_icons/lightbulbs.dds"
+    category = military
+
+    cost = 60
+}
+
+searing_enigmas = {
+    texture = "gfx/interface/icons/goods_icons/enigmas.dds"
+    category = military
+
+    cost = 70
+}
+
+moves_in_the_game = {
+    texture = "gfx/interface/icons/goods_icons/moves_in_the_game.dds"
+    category = military
+
+    cost = 70
+}

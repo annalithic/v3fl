@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_FALLEN_LONDON = {
-		region_state:GBR = {
+		region_state:FLN = {
 			create_pop = {
 				culture = british
 				size = 2657596
@@ -23,7 +23,7 @@
 	}
 	
 	s:STATE_SOUTHWARK = {
-		region_state:GBR = {
+		region_state:FLN = {
 			create_pop = {
 				culture = british
 				size = 2657596

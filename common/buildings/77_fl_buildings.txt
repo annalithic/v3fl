@@ -12,11 +12,11 @@
 	
 	city_gfx_interactions = {
 		clear_size_area = yes
-		size = 3
+		size = 2
 	}
 	
 	production_method_groups = {
-		pmg_base_building_big_ben
+		fl_pmg_base_building_echo_bazaar
 	}
 	
 	required_construction = 10

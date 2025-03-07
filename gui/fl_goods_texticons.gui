@@ -1,0 +1,109 @@
+﻿texticon = {
+	icon = wax
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/wax.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = candles
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/candles.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = cryptic_clues
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/clues.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = prisoners_honey
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/honey.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = zee_ztories
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/zee_ztories.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = appalling_secrets
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/secrets.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = memories_of_light
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/memories_of_light.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = love_stories
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/love_stories.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = lightbulbs
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/lightbulbs.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = searing_enigmas
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/enigmas.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = moves_in_the_game
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/moves_in_the_game.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
