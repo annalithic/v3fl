@@ -1,0 +1,110 @@
+﻿SmartPainter={
+	PresetManager={
+		Presets={
+			Preset={
+				name="New Preset"
+				HeightRange={
+					Range={
+						name="New Pattern"
+						pattern=3
+						curve=0
+						angle_l=0.000000
+						angle_r=180.000000
+						bleeding=3
+						density=4
+						opacity_curve={
+							type="Linear"
+							is_clamped=no
+							points={ 0.000000 1.000000 1.000000 1.000000 }
+						}
+						opacity_mask_transform={
+						}
+						material={
+							Name=""
+							Materials={
+								Material={
+									MaterialId="grasslands_02"
+									Value=255
+								}
+							}
+						}
+						visible=yes
+						avg_geometry=1
+						debugging=no
+					}
+				}
+			}
+			Preset={
+				name="New Preset"
+				HeightRange={
+					Range={
+						name="New Pattern"
+						pattern=2
+						curve=0
+						angle_l=0.000000
+						angle_r=88.000000
+						bleeding=2
+						density=6
+						opacity_curve={
+							type="Linear"
+							is_clamped=no
+							points={ 0.000000 1.000000 1.000000 1.000000 }
+						}
+						opacity_mask_transform={
+						}
+						material={
+							Name=""
+							Materials={
+								Material={
+									MaterialId="rocks_01"
+									Value=162
+								}
+								Material={
+									MaterialId="grasslands_05"
+									Value=80
+								}
+								Material={
+									MaterialId="grasslands_02"
+									Value=13
+								}
+							}
+						}
+						visible=yes
+						avg_geometry=0
+						debugging=no
+					}
+					Range={
+						name="New Pattern"
+						pattern=1
+						curve=0
+						angle_l=90.000000
+						angle_r=92.000000
+						bleeding=2
+						density=8
+						opacity_curve={
+							type="Linear"
+							is_clamped=no
+							points={ 0.000000 1.000000 1.000000 1.000000 }
+						}
+						opacity_mask_transform={
+						}
+						material={
+							Name=""
+							Materials={
+								Material={
+									MaterialId="cliff_granite_01"
+									Value=255
+								}
+							}
+						}
+						visible=yes
+						avg_geometry=2
+						debugging=no
+					}
+				}
+			}
+		}
+	}
+	CurrentPreset=1
+	Autosave=no
+}
