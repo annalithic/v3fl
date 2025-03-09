@@ -3,21 +3,21 @@
 		region_state:FLN = {
 			create_pop = {
 				culture = british
-				size = 2657596
+				size = 1063038
 			}
 			create_pop = {
 				culture = british
 				religion = jewish
-				size = 20000
+				size = 8000
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 100000
+				size = 40000
 			}
 			create_pop = {
 				culture = irish
-				size = 28400
+				size = 11360
 			}
 		}
 	}
@@ -26,21 +26,21 @@
 		region_state:FLN = {
 			create_pop = {
 				culture = british
-				size = 2657596
+				size = 744126
 			}
 			create_pop = {
 				culture = british
 				religion = jewish
-				size = 20000
+				size = 5600
 			}
 			create_pop = {
 				culture = british
 				religion = catholic
-				size = 100000
+				size = 28000
 			}
 			create_pop = {
 				culture = irish
-				size = 28400
+				size = 7952
 			}
 		}
 	}

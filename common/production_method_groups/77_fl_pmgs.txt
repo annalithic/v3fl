@@ -7,3 +7,25 @@
 		fl_pm_default_building_echo_bazaar
 	}
 }
+
+#APIARIES
+
+fl_pmg_base_building_apiary = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		fl_pm_wicker_hives
+		fl_pm_wooden_hives
+		fl_pm_movable_comb_hives
+		fl_pm_mechanical_hives
+	}
+}
+
+fl_pmg_base_building_illumination_industries = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		fl_pm_handmade_candles
+		fl_pm_moulded_candles
+		fl_pm_mourning_candles
+		fl_pm_lightbulbs
+	}
+}

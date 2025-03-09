@@ -85,3 +85,91 @@ goods_output_moves_in_the_game_add={
 		ai_value=0
 	}
 }
+
+goods_input_wax_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_candles_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_cryptic_clues_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_prisoners_honey_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_zee_ztories_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_appalling_secrets_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_memories_of_light_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_love_stories_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_lightbulbs_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_searing_enigmas_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_moves_in_the_game_add={
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}

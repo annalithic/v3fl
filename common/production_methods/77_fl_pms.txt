@@ -5,8 +5,6 @@
 
 	building_modifiers = {
 		workforce_scaled = {
-                  goods_output_wax_add = 77
-                  goods_output_candles_add = 77
                   goods_output_cryptic_clues_add = 77
                   goods_output_prisoners_honey_add = 77
                   goods_output_zee_ztories_add = 77
@@ -20,6 +18,159 @@
 
 		level_scaled = {
 			building_employment_machinists_add = 100
+		}
+	}
+}
+
+#APIARIES
+fl_pm_wicker_hives = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"		
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_wax_add = 15
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}		
+
+fl_pm_wooden_hives = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"			
+	building_modifiers = {				
+		workforce_scaled = {
+			goods_input_wood_add = 10
+			goods_output_wax_add = 30
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_farmers_add = 1250
+			building_employment_machinists_add = 500
+		}
+	}							
+}
+
+fl_pm_movable_comb_hives = {
+	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"	
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 10
+                  goods_input_iron_add = 5
+			goods_output_wax_add = 45
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1500
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+fl_pm_mechanical_hives = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"	
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 10
+                  goods_input_iron_add = 5
+                  goods_input_engines_add = 5
+			goods_output_wax_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2250
+			building_employment_farmers_add = 1750
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+#ILLUMINATION INDUSTRIES
+
+fl_pm_handmade_candles = {
+	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+                  goods_input_wax_add = 35
+			goods_input_fabric_add = 5
+			goods_output_candles_add = 45
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+fl_pm_moulded_candles = {
+	texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+                  goods_input_wax_add = 45
+			goods_input_fabric_add = 5
+                  goods_input_tools_add = 5
+			goods_output_candles_add = 65
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+		}
+	}
+}			
+
+fl_pm_mourning_candles = {
+	texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+                  goods_input_wax_add = 45
+			goods_input_fabric_add = 5
+                  goods_input_tools_add = 5
+                  goods_input_memories_of_light_add = 5                 
+			goods_output_candles_add = 120
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 250
+		}
+	}
+}
+
+fl_pm_lightbulbs = {
+	texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 25
+			goods_input_steel_add = 10
+                  goods_input_memories_of_light_add = 10                 
+			goods_output_lightbulbs_add = 70
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
 		}
 	}
 }
