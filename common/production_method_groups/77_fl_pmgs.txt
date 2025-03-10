@@ -20,6 +20,16 @@ fl_pmg_base_building_apiary = {
 	}
 }
 
+fl_pmg_honey = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		fl_pm_wild_gardens
+		fl_pm_rose_gardens
+		fl_pm_greenhouses
+		fl_pm_hellish_soil
+	}
+}
+
 fl_pmg_base_building_illumination_industries = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {

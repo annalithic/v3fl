@@ -255,7 +255,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "fl_pm_wooden_hives" "pm_standard_fences" "pm_unrefrigerated" }
+				activate_production_methods={ "fl_pm_wooden_hives" "fl_pm_wild_gardens" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
 				building="building_paper_mills"
@@ -329,7 +329,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_standard_fences" "fl_pm_wooden_hives" }
+				activate_production_methods={ "fl_pm_wooden_hives" "fl_pm_wild_gardens" "pm_unrefrigerated" "pm_standard_fences" }
 			}
 			create_building={
 				building="fl_building_illumination_industries"
