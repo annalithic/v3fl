@@ -39,3 +39,21 @@ fl_pmg_base_building_illumination_industries = {
 		fl_pm_lightbulbs
 	}
 }
+
+fl_pmg_base_building_honey_dens = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		fl_pm_back_rooms
+		fl_pm_open_bars
+		fl_pm_stage_shows
+	}
+}
+
+fl_pmg_mirrors = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		fl_pm_no_mirrors
+		fl_pm_mirrored_salons
+		fl_pm_vitreous_almanacs
+	}
+}

@@ -1,0 +1,23 @@
+﻿GLOBAL = {
+    c:FLN = {
+        ig:ig_armed_forces = {
+            set_interest_group_name = fl_ig_the_admiralty
+        }
+
+        ig:ig_industrialists = {
+            set_interest_group_name = fl_ig_masters_of_the_bazaar
+        }
+
+        ig:ig_intelligentsia = {
+            set_interest_group_name = fl_ig_bohemians
+        }
+
+        ig:ig_landowners = {
+            set_interest_group_name = fl_ig_society
+        }
+
+        ig:ig_trade_unions = {
+            set_interest_group_name = fl_ig_revolutionaries
+        }
+    }
+}

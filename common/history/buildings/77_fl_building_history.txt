@@ -152,7 +152,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_potatoes" "pm_tools_disabled" "pm_simple_farming" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -197,6 +197,7 @@
 						region="STATE_FALLEN_LONDON"
 					}
 				}
+				subsidized=no
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
 			}
@@ -255,7 +256,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "fl_pm_wooden_hives" "fl_pm_wild_gardens" "pm_standard_fences" "pm_unrefrigerated" }
+				activate_production_methods={ "pm_unrefrigerated" "fl_pm_wooden_hives" "pm_standard_fences" "fl_pm_greenhouses" }
 			}
 			create_building={
 				building="building_paper_mills"
@@ -273,9 +274,24 @@
 			create_building={
 				building="building_furniture_manufacturies"
 				add_ownership={
+					country={
+						country="c:FLN"
+						levels=1
+					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled" }
+				activate_production_methods={ "pm_automation_disabled" "pm_lathe" "pm_luxury_furniture" }
+			}
+			create_building={
+				building="fl_building_honey_dens"
+				add_ownership={
+					country={
+						country="c:FLN"
+						levels=3
+					}
+				}
+				reserves=1
+				activate_production_methods={ "fl_pm_back_rooms" }
 			}
 		}
 	}
@@ -329,7 +345,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "fl_pm_wooden_hives" "fl_pm_wild_gardens" "pm_unrefrigerated" "pm_standard_fences" }
+				activate_production_methods={ "fl_pm_wooden_hives" "pm_unrefrigerated" "pm_standard_fences" "fl_pm_greenhouses" }
 			}
 			create_building={
 				building="fl_building_illumination_industries"
@@ -385,7 +401,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_automation_disabled" "pm_lathe" "pm_luxury_furniture" }
+				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled" }
 			}
 			create_building={
 				building="building_textile_mills"
@@ -443,6 +459,7 @@
 						region="STATE_SOUTHWARK"
 					}
 				}
+				subsidized=no
 				reserves=1
 				activate_production_methods={ "pm_early_trains" "pm_no_passenger_trains" }
 			}
@@ -486,6 +503,10 @@
 			create_building={
 				building="building_food_industry"
 				add_ownership={
+					country={
+						country="c:FLN"
+						levels=1
+					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_disabled_distillery" "pm_manual_dough_processing" }

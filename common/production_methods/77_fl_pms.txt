@@ -8,8 +8,6 @@
                   goods_output_cryptic_clues_add = 77
                   goods_output_zee_ztories_add = 77
                   goods_output_appalling_secrets_add = 77
-                  goods_output_memories_of_light_add = 77
-                  goods_output_love_stories_add = 77
                   goods_output_lightbulbs_add = 77
                   goods_output_searing_enigmas_add = 77
                   goods_output_moves_in_the_game_add = 77
@@ -219,6 +217,106 @@ fl_pm_lightbulbs = {
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 1000
 			building_employment_engineers_add = 500
+		}
+	}
+}
+
+#HONEY DENS
+fl_pm_back_rooms = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	building_modifiers = {
+
+		workforce_scaled = {
+			goods_input_prisoners_honey_add = 15            
+			goods_output_love_stories_add = 25
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_laborers_add = 3500
+		}
+	}
+}
+
+fl_pm_open_bars = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	building_modifiers = {
+
+		workforce_scaled = {
+			goods_input_prisoners_honey_add = 15
+			goods_input_wine_add = 8
+			goods_output_love_stories_add = 35
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_clerks_add = 1500
+			building_employment_laborers_add = 3000
+		}
+	}
+}
+
+fl_pm_stage_shows = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	building_modifiers = {
+
+		workforce_scaled = {
+			goods_input_prisoners_honey_add = 15
+			goods_input_wine_add = 8
+			goods_input_silk_add = 5
+			goods_output_love_stories_add = 50
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_clerks_add = 1000
+			building_employment_laborers_add = 2500
+			building_employment_academics_add = 500
+		}
+	}
+}
+
+fl_pm_no_mirrors = {
+	texture = "gfx/interface/icons/production_method_icons/no_luxury_furniture.dds"
+}
+
+fl_pm_mirrored_salons = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
+
+	building_modifiers = {
+
+		workforce_scaled = {
+			goods_input_glass_add = 5
+			goods_output_love_stories_add = -15
+			goods_output_memories_of_light_add = 30
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 250
+		}
+	}
+}
+
+fl_pm_vitreous_almanacs = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+
+	unlocking_production_methods = {
+		fl_pm_open_bars
+		fl_pm_stage_shows
+	}
+
+	building_modifiers = {
+
+		workforce_scaled = {
+			goods_input_glass_add = 5
+			goods_input_zee_ztories_add = 5
+			goods_output_love_stories_add = -30
+			goods_output_memories_of_light_add = 60
+		}
+
+		level_scaled = {
+			building_employment_academics_add = 500
 		}
 	}
 }

@@ -6,6 +6,26 @@
 	cash_reserves_max = 25000
 }
 
-fl_bg_illumination_industries = {
-    
+fl_bg_society_buildings = {
+    category = urban
+	always_possible = yes
+	economy_of_scale = yes
+	cash_reserves_max = 25000
+
+	should_auto_expand = { 
+		default_auto_expand_rule = yes
+	}
+
+	economy_of_scale_ai_factor = 1.5
+	foreign_investment_ai_factor = 0.75
+
+	lens = light_industry
+
+	urbanization = 20
+	infrastructure_usage_per_level = 2
+}
+
+fl_bg_honey_dens = {
+	parent_group = fl_bg_society_buildings
+	default_building = fl_building_honey_dens
 }
