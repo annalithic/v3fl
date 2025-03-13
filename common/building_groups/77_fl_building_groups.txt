@@ -29,3 +29,14 @@ fl_bg_honey_dens = {
 	parent_group = fl_bg_society_buildings
 	default_building = fl_building_honey_dens
 }
+
+fl_bg_spider_councils = {
+	parent_group = bg_plantations
+	default_building = fl_building_spider_councils
+}
+
+fl_bg_dig_site = {
+	parent_group = bg_mining
+	default_building = fl_building_dig_site
+	can_use_slaves = yes
+}

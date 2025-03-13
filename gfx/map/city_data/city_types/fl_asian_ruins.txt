@@ -53,4 +53,9 @@
 		"generic_rural_mining_pile_01_mesh"
 		"generic_rural_mining_pile_02_mesh"
 	}
+
+	fl_building_dig_site = {
+		"generic_rural_mining_pile_01_mesh"
+		"generic_rural_mining_pile_02_mesh"
+	}
 }

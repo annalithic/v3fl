@@ -7,7 +7,6 @@
 		workforce_scaled = {
                   goods_output_cryptic_clues_add = 77
                   goods_output_zee_ztories_add = 77
-                  goods_output_appalling_secrets_add = 77
                   goods_output_lightbulbs_add = 77
                   goods_output_searing_enigmas_add = 77
                   goods_output_moves_in_the_game_add = 77
@@ -320,3 +319,230 @@ fl_pm_vitreous_almanacs = {
 		}
 	}
 }
+
+
+#SPIDER COUNCILS
+fl_pm_feeding_pits = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_meat_add = 10
+			goods_output_silk_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}
+
+fl_pm_screaming_pits = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	building_modifiers = {
+		workforce_scaled = {
+				goods_input_meat_add = 10
+				goods_input_appalling_secrets_add = 10
+				goods_output_silk_add = 35
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}
+
+fl_pm_dreaming_pits = {
+	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	building_modifiers = {
+		workforce_scaled = {
+				goods_input_meat_add = 10
+				goods_input_memories_of_light_add = 10
+				goods_input_appalling_secrets_add = 10
+				goods_output_silk_add = 50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}
+
+#DIG SITE - MINE PMS FOR NOW
+
+fl_pm_picks_and_shovels_building_dig_site = {
+	texture = "gfx/interface/icons/production_method_icons/picks_and_shovels.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5
+			
+			# output goods
+			goods_output_appalling_secrets_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+fl_pm_atmospheric_engine_pump_building_dig_site = {
+	texture = "gfx/interface/icons/production_method_icons/pumps.dds"
+
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10
+			goods_input_coal_add = 10
+			
+			# output goods
+			goods_output_appalling_secrets_add = 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3750
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 250
+		}
+	}
+}
+
+fl_pm_condensing_engine_pump_building_dig_site = {
+	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
+
+	unlocking_technologies = {
+		watertube_boiler
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_coal_add = 15
+			
+			# output goods
+			goods_output_appalling_secrets_add = 60
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+fl_pm_diesel_pump_building_dig_site = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_oil_add = 5
+			
+			# output goods
+			goods_output_appalling_secrets_add = 70
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+fl_pm_nitroglycerin_building_dig_site = {
+	texture = "gfx/interface/icons/production_method_icons/nitroglycerin.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+	 	nitroglycerin
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_explosives_add = 5
+			
+			# output goods
+			goods_output_appalling_secrets_add = 12
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 250
+		}
+
+		unscaled = {
+			building_laborers_mortality_mult = 0.3
+			building_machinists_mortality_mult = 0.2
+			building_engineers_mortality_mult = 0.1
+		}
+	}
+}
+
+fl_pm_dynamite_building_dig_site = {
+	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		dynamite
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 10
+			
+			# output goods
+			goods_output_appalling_secrets_add = 20
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 250
+		}
+	}
+}	

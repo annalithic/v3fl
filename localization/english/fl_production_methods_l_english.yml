@@ -12,11 +12,13 @@
   fl_pm_rose_gardens: "Rose Gardens"
   fl_pm_greenhouses: "Greenhouses"
   fl_pm_hellish_soil: "Hell-Infused Soil"
+
   fl_pmg_base_building_illumination_industries: "Base"
   fl_pm_handmade_candles: "Handmade Candles"
   fl_pm_moulded_candles: "Moulded Candles"
   fl_pm_mourning_candles: "Mourning Candles"
   fl_pm_lightbulbs: "Electric Bulbs"
+  
   fl_pmg_base_building_honey_dens: "Base"
   fl_pm_back_rooms: "Back-Rooms"
   fl_pm_open_bars: "Open Bars"
@@ -25,3 +27,18 @@
   fl_pm_no_mirrors: "No Mirrors"
   fl_pm_mirrored_salons: "Mirrored Salons"
   fl_pm_vitreous_almanacs: "Vitreous Almanacs"
+
+  fl_pmg_base_building_spider_councils: "Base"
+  fl_pm_feeding_pits: "Feeding Pits"
+  fl_pm_screaming_pits: "Screaming Pits"
+  fl_pm_dreaming_pits: "Dreaming Pits"
+
+
+  fl_pmg_base_building_dig_site: "Mining Equipment"
+  fl_pm_picks_and_shovels_building_dig_site: "Picks and Shovels"
+  fl_pm_atmospheric_engine_pump_building_dig_site: "Atmospheric Engine Pump"
+  fl_pm_condensing_engine_pump_building_dig_site: "Condensing Engine Pump"
+  fl_pm_diesel_pump_building_dig_site: "Diesel Pump"
+  fl_pmg_explosives_building_dig_site: "Explosives"
+  fl_pm_nitroglycerin_building_dig_site: "Nitroglycerin"
+  fl_pm_dynamite_building_dig_site: "Dynamite"

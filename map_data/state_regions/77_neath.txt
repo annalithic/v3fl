@@ -8,12 +8,13 @@
     mine = "x5529BD"
     wood = "x63555B"
     arable_land = 35
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "fl_bg_apiaries" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "fl_bg_apiaries" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 8
         bg_fishing = 9
         bg_iron_mining = 30
         bg_coal_mining = 40
+        fl_bg_dig_site = 8
     }
     naval_exit_id = 3000
 }
@@ -28,11 +29,12 @@ STATE_SOUTHWARK = {
     mine = "x60BB37"
     wood = "x555555"
     arable_land = 40
-    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" "fl_bg_apiaries" }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "fl_bg_apiaries" "fl_bg_spider_councils" }
     capped_resources = {
         bg_logging = 12
         bg_fishing = 12
         bg_lead_mining = 30
+        fl_bg_dig_site = 15
     }
     naval_exit_id = 3000
 }

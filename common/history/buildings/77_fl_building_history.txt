@@ -138,7 +138,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_unrefrigerated" "pm_standard_fences" "pm_sheep_farms" }
 			}
 			create_building={
-				building="building_rye_farm"
+				building="building_wheat_farm"
 				add_ownership={
 					country={
 						country="c:FLN"
@@ -152,7 +152,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_potatoes" }
+				activate_production_methods={ "pm_simple_farming" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -376,7 +376,7 @@
 				activate_production_methods={ "pm_open_air_stockyards" "pm_sheep_farms" "pm_standard_fences" "pm_unrefrigerated" }
 			}
 			create_building={
-				building="building_rye_farm"
+				building="building_wheat_farm"
 				add_ownership={
 					country={
 						country="c:FLN"
@@ -390,7 +390,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_tools_disabled" "pm_soil_enriching_farming" "pm_apple_orchards" }
+				activate_production_methods={ "pm_tools_disabled" "pm_soil_enriching_farming" "pm_citrus_orchards" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"

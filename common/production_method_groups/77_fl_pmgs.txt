@@ -57,3 +57,31 @@ fl_pmg_mirrors = {
 		fl_pm_vitreous_almanacs
 	}
 }
+
+fl_pmg_base_building_spider_councils = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		fl_pm_feeding_pits
+		fl_pm_screaming_pits
+		fl_pm_dreaming_pits
+	}
+}
+
+fl_pmg_base_building_dig_site = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		fl_pm_picks_and_shovels_building_dig_site
+		fl_pm_atmospheric_engine_pump_building_dig_site
+		fl_pm_condensing_engine_pump_building_dig_site
+		fl_pm_diesel_pump_building_dig_site
+	}
+}
+
+fl_pmg_explosives_building_dig_site = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_explosives
+		fl_pm_nitroglycerin_building_dig_site
+		fl_pm_dynamite_building_dig_site
+	}
+}
