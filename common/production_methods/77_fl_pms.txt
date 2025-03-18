@@ -20,7 +20,7 @@
 
 #APIARIES
 fl_pm_wicker_hives = {
-	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"		
+	texture = "gfx/interface/icons/production_method_icons/beehive_base.dds"		
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_wax_add = 15
@@ -34,7 +34,7 @@ fl_pm_wicker_hives = {
 }		
 
 fl_pm_wooden_hives = {
-	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"			
+	texture = "gfx/interface/icons/production_method_icons/wooden_beehive_base.dds"			
 	building_modifiers = {				
 		workforce_scaled = {
 			goods_input_wood_add = 10
@@ -93,50 +93,36 @@ fl_pm_mechanical_hives = {
 }
 
 fl_pm_wild_gardens = {
-      texture = "gfx/interface/icons/production_method_icons/no_orchards.dds"
+      texture = "gfx/interface/icons/production_method_icons/no_roses.dds"
 }
 
 fl_pm_rose_gardens = {
-      texture = "gfx/interface/icons/production_method_icons/orchards.dds"
+      texture = "gfx/interface/icons/production_method_icons/rose_refining.dds"
 
       building_modifiers = {
 		workforce_scaled = {
 			goods_input_fertilizer_add = 15
 			goods_output_prisoners_honey_add = 15
 		}
-	}
-}
 
-fl_pm_greenhouses = {
-      texture = "gfx/interface/icons/production_method_icons/radios.dds"
-
-      building_modifiers = {
-		workforce_scaled = {
-			goods_input_fertilizer_add = 20
-                  goods_input_glass_add = 10
-			goods_output_prisoners_honey_add = 30
-		}
-
-            level_scaled = {
-			building_employment_machinists_add = 125
+		level_scaled = {
+			building_employment_laborers_add = 250
 		}
 	}
 }
 
 fl_pm_hellish_soil = {
-      texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+      texture = "gfx/interface/icons/production_method_icons/rosesoil_refining.dds"
 
       building_modifiers = {
 		workforce_scaled = {
-			goods_input_fertilizer_add = 20
-                  goods_input_glass_add = 10
-                  goods_input_appalling_secrets_add = 10
-			goods_output_prisoners_honey_add = 45
+			goods_input_fertilizer_add = 15
+			goods_input_appalling_secrets_add = 10
+			goods_output_prisoners_honey_add = 30
 		}
 
-            level_scaled = {
-			building_employment_machinists_add = 200
-                  building_employment_engineers_add = 50
+		level_scaled = {
+			building_employment_machinists_add = 250
 		}
 	}
 }
@@ -323,7 +309,7 @@ fl_pm_vitreous_almanacs = {
 
 #SPIDER COUNCILS
 fl_pm_feeding_pits = {
-	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"
+	texture = "gfx/interface/icons/production_method_icons/spider_base.dds"
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -339,7 +325,7 @@ fl_pm_feeding_pits = {
 }
 
 fl_pm_screaming_pits = {
-	texture = "gfx/interface/icons/production_method_icons/unused/base2.dds"
+	texture = "gfx/interface/icons/production_method_icons/eyeball_base.dds"
 	building_modifiers = {
 		workforce_scaled = {
 				goods_input_meat_add = 10
@@ -355,7 +341,7 @@ fl_pm_screaming_pits = {
 }
 
 fl_pm_dreaming_pits = {
-	texture = "gfx/interface/icons/production_method_icons/unused/base3.dds"
+	texture = "gfx/interface/icons/production_method_icons/mirrorspiders_base.dds"
 	building_modifiers = {
 		workforce_scaled = {
 				goods_input_meat_add = 10

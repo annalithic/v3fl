@@ -1,0 +1,10 @@
+﻿object={
+	name="fl_neath_ring"
+	clamp_to_water_level=no
+	render_under_water=yes
+	generated_content=no
+	layer="massive_environment"
+	pdxmesh="fl_neath_ring_mesh"
+	count=1
+	transform="3430 6.662842 2848 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000"
+}

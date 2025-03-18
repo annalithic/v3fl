@@ -25,7 +25,6 @@ fl_pmg_honey = {
 	production_methods = {
 		fl_pm_wild_gardens
 		fl_pm_rose_gardens
-		fl_pm_greenhouses
 		fl_pm_hellish_soil
 	}
 }

@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "fl_neath_ring_mesh"
+	file = "fl_neath_ring.mesh"
+
+	meshsettings = {
+		name = "Circle.002"
+		index = 0
+		texture_diffuse = "black.dds"
+		texture_normal = "no_normal.dds"
+		texture_specular = "no_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "fl_neath_ring_entity"
+	pdxmesh = "fl_neath_ring_mesh"
+}
