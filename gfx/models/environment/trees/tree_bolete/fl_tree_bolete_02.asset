@@ -1,0 +1,21 @@
+pdxmesh = {
+	name = "fl_tree_bolete_02_mesh"
+	file = "fl_tree_bolete_02.mesh"
+
+	meshsettings = {
+		name = "bolete_02"
+		index = 0
+		texture_diffuse = "bolete_diffuse.dds"
+		texture_normal = "no_normal.dds"
+		texture_specular = "bolete_properties.dds"
+		texture = { file = "bolete_tint.dds" index = 3 srgb = yes }
+		shader = "tree_colormap"
+		additional_shader_defines = { "TREE_MEDIUM" "SHARPEN_05" }
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "fl_tree_bolete_02_entity"
+	pdxmesh = "fl_tree_bolete_02_mesh"
+}
