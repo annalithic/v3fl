@@ -1,0 +1,23 @@
+﻿fl_building_house_of_chimes = {
+	building_group = bg_monuments_hidden
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "fl_houseofchimes_locator"
+	
+	entity_not_constructed = {"fl_houseofchimes_entity"}
+	entity_under_construction = {"fl_houseofchimes_entity"}
+	entity_constructed = {"fl_houseofchimes_entity"}
+
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_dummy
+	}
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

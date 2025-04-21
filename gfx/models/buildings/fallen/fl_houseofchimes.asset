@@ -1,0 +1,22 @@
+pdxmesh = {
+	name = "fl_houseofchimes_mesh"
+	file = "fl_houseofchimes.mesh"
+
+	scale = 1.125
+
+	meshsettings = {
+		name = "houseofchimes"
+		index = 0
+		texture_diffuse = "wonder_big_ben_01_diffuse.dds"
+		texture_normal = "wonder_big_ben_01_normal.dds"
+		texture_specular = "wonder_big_ben_01_properties.dds"
+		shader = "standard"
+		additional_shader_defines = {  "EMISSIVE_NIGHT""PDX_MESH_SNAP_VERTICES_TO_TERRAIN"  }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "fl_houseofchimes_entity"
+	pdxmesh = "fl_houseofchimes_mesh"
+}

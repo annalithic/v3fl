@@ -13,3 +13,18 @@
 		}
 	}
 }
+game_object_locator={
+	name="fl_houseofchimes_locator"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="static"
+	instances={
+		{
+			id=1
+			position={ 3296.422852 0.000000 2876.205322 }
+			rotation={ -0.000000 0.086205 -0.000000 -0.996278 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+	}
+}
